@@ -5,6 +5,7 @@ import Categories from "@/components/Categories";
 import Journey from "@/components/Journey";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
+import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -23,6 +24,9 @@ const Index = () => {
           <Pricing />
         </div>
         <Testimonials />
+        <div id="blog">
+          <Blog />
+        </div>
         <div id="footer">
           <Footer />
         </div>
